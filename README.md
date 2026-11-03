@@ -1,2 +1,52 @@
-# ai-infra-tracker
-AI Infra Learning Tracker: Roadmap, Weekly Evidence Audit &amp; Progress Management
+# Evidence Rules
+
+## 一、有效证据
+
+以下证据可以用于审计：
+
+1. GitHub Commit
+2. 可复现的代码仓库
+3. Benchmark原始日志
+4. Profiling报告
+5. 自动测试结果
+6. 实验报告
+7. 源码Patch
+8. 课程Lab评分结果
+
+## 二、证据必须包含
+
+- 文件路径或链接
+- 对应Git Commit
+- 运行环境
+- 复现命令
+- 测试或实验结果
+
+## 三、无效证据
+
+以下内容不能单独证明任务完成：
+
+- 看完课程
+- 阅读源码
+- 学习心得
+- 自评理解分
+- 没有日志的性能结论
+- 没有测试的AI生成代码
+
+## 四、目录约定
+
+小型实验日志可以保存在仓库中。
+
+大型Benchmark原始数据可以保存在独立项目仓库，
+在weekly-log.md中引用具体Commit和路径。
+
+## 五、证据不可访问
+
+如果Codex无法访问证据：
+
+不得宣称验证成功。
+
+标记：
+【证据待核验】
+
+并说明原因：
+权限不足、链接失效、文件不存在或工具不可用。
